@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EncryptedFileHeader>
+  <Algorithm>Twofish</Algorithm>
+  <KeySize>128</KeySize>
+  <BlockSize>128</BlockSize>
+  <CipherMode>ECB</CipherMode>
+  <ApprovedUsers>
+    <User>
+      <Name>nowy</Name>
+      <SessionKey>gdWD5JSaWxOTy4Xwg5GwUeug1dkgmpd8VwDBr17PXiQbrdU484JcqgTCUbCImjjhPzD/UKYcUA7Q6mTFV23N0Q==</SessionKey>
+    </User>
+  </ApprovedUsers>
+</EncryptedFileHeader>
+

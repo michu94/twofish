@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
+   <children>
+      <Label layoutX="229.0" layoutY="48.0" text="Dodanie użytkownika" />
+      <Label layoutX="81.0" layoutY="91.0" text="Nazwa użytkownika" />
+      <Label layoutX="81.0" layoutY="155.0" text="Hasło" />
+      <Label layoutX="81.0" layoutY="228.0" text="Powtórz hasło" />
+      <TextField fx:id="userNameField" layoutX="278.0" layoutY="86.0" />
+      <Button fx:id="addButton" layoutX="246.0" layoutY="312.0" mnemonicParsing="false" onAction="#addUser" text="Dodaj !" />
+      <PasswordField fx:id="userPasswordField" layoutX="280.0" layoutY="150.0" />
+      <PasswordField fx:id="userSecondPassField" layoutX="280.0" layoutY="223.0" />
+   </children>
+</AnchorPane>
